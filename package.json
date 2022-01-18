@@ -1,0 +1,20 @@
+{
+  "name": "automate-validator",
+  "version": "1.0.0",
+  "scripts": {
+    "check:html": "node htmlValidator.js",
+    "check:js": "node jsValidator.js"
+  },
+  "keywords": [],
+  "author": "Mono-Tong",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "colors": "^1.4.0",
+    "google-spreadsheet": "^3.1.15",
+    "is-url-superb": "^5.0.0",
+    "puppeteer": "^10.4.0",
+    "w3c-html-validator": "^0.8.1"
+  }
+}
