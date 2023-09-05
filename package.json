@@ -1,0 +1,22 @@
+{
+  "name": "automate-validator",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "check:html": "node htmlValidator.js",
+    "check:js": "node jsValidator.js"
+  },
+  "keywords": [],
+  "author": "Mono-Tong",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "google-auth-library": "^8.9.0",
+    "google-spreadsheet": "^4.0.2",
+    "is-url-superb": "^6.1.0",
+    "puppeteer": "^20.7.4",
+    "w3c-html-validator": "^1.4.0"
+  }
+}
